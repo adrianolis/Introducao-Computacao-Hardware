@@ -1,2 +1,2 @@
-# Introdu-o-Computa-o-Hardware1
+# Introdu-o-Computa-o-Hardware
 Atividade de Introdução a Computação
