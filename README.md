@@ -49,4 +49,5 @@ https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg
 
 ## Referências:
 Acervo Online: Computer History Museum (CHM).
+
 Documentário: Trechos de Triumph of the Nerds (1996).
