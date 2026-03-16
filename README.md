@@ -43,9 +43,9 @@ A evolução dos componentes internos dos computadores, como a ULA, a unidade de
 
 ## Imagens:
 
-([https://museucapixaba.com.br/wp-content/uploads/2022/12/computador-Altair-8800-1.jpg](https://www.altairmini.com/wp-content/uploads/al_opt_content/IMAGE/www.altairmini.com/wp-content/uploads/2025/11/b3ac5f38-9316-4eaf-b006-64d704eeeb67-1-2-1-1.jpg.bv.webp?bv_host=www.altairmini.com)
+![Altair 8800 1](https://upload.wikimedia.org/wikipedia/commons/c/cb/MITS_Altair_8800_Computer_%281975%29.jpg)
 
-![Altair 8800](https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg)
+![Altair 8800 2](https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg)
 
 ## Referências:
 Acervo Online: [Computer History Museum](https://computerhistory.org)
