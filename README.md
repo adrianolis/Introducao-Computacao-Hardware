@@ -1,2 +1,2 @@
-# Introdu-o-Computa-o-Hardware
+# Investigação de Hardware:
 Atividade de Introdução a Computação
