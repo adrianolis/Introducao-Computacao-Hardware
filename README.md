@@ -13,7 +13,7 @@ A Unidade de Controle era responsável por coordenar a execução das instruçõ
 
 Comparado com os computadores atuais, esse processamento era extremamente limitado. Hoje, processadores modernos possuem bilhões de transistores e conseguem realizar bilhões de operações por segundo.
 
-## Armazenamento e memória
+## Armazenamento e memória 
 
 O Altair 8800 possuía uma quantidade muito pequena de memória. A configuração inicial do computador tinha apenas cerca de 256 bytes de memória RAM. Isso significa que ele podia armazenar uma quantidade muito pequena de dados e instruções.
 
