@@ -40,3 +40,13 @@ Além disso, os dispositivos atuais também possuem conectividade com redes e in
 O Altair 8800 foi um computador extremamente importante para a história da computação, pois ajudou a iniciar a revolução dos computadores pessoais. Mesmo sendo muito limitado quando comparado com os computadores atuais, ele abriu caminho para o desenvolvimento de máquinas cada vez mais poderosas e acessíveis.
 
 A evolução dos componentes internos dos computadores, como a ULA, a unidade de controle, a memória e os periféricos, demonstra como a tecnologia avançou rapidamente nas últimas décadas.
+
+## Imagens:
+
+https://museucapixaba.com.br/wp-content/uploads/2022/12/computador-Altair-8800-1.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg
+
+## Referências:
+Acervo Online: Computer History Museum (CHM).
+Documentário: Trechos de Triumph of the Nerds (1996).
