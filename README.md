@@ -48,6 +48,6 @@ A evolução dos componentes internos dos computadores, como a ULA, a unidade de
 https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg
 
 ## Referências:
-Acervo Online: Computer History Museum (CHM).
+Acervo Online: [Computer History Museum](https://computerhistory.org)
 
-Documentário: Trechos de Triumph of the Nerds (1996).
+Documentário: [Triumph of the Nerds (1996)](https://www.youtube.com/watch?v=XlCaiD5VQRU)
