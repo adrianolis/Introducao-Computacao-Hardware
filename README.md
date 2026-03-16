@@ -6,7 +6,7 @@ No início, o Altair 8800 era vendido como um kit que os próprios usuários pre
 
 O Altair também ganhou destaque porque foi a máquina para a qual Bill Gates e Paul Allen desenvolveram uma versão da linguagem BASIC, o que ajudou no surgimento da empresa Microsoft.
 
-## Processamento (ULA e Unidade de Controle)
+## Processamento
 O processamento do Altair 8800 era realizado pelo microprocessador Intel 8080. Esse processador possuía uma Unidade Lógica e Aritmética (ULA), responsável por realizar operações matemáticas e lógicas, como soma, subtração e comparações entre valores.
 
 A Unidade de Controle era responsável por coordenar a execução das instruções do programa, controlando o fluxo de dados dentro do processador e determinando quais operações deveriam ser executadas em cada momento.
