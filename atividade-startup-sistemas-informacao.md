@@ -47,13 +47,3 @@
 ## Processamento (O Sistema)
 
 ### Fluxo completo: Coleta → Armazenamento → Processamento → Análise
-
-```mermaid
-graph LR
-    A[PDV / ERP] -->|API| B[Apache Kafka]
-    C[API Clima] --> B
-    D[Web Scraping] --> B
-    B --> E[Data Lake AWS S3]
-    E --> F[Spark - limpeza e agregação]
-    F --> G[Modelo Random Forest]
-    G --> H[Dashboard Metabase]
