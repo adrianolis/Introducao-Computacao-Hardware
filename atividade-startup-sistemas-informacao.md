@@ -21,7 +21,7 @@
 ## Problema e Dados (A Escolha do Caos)
 
 ### Problema real identificado
-> Pequenos varejistas perdem em média 15% do faturamento por falta de produto (ruptura) e outros 10% por excesso de estoque encalhado. Eles não têm ferramentas acessíveis para prever demanda.
+> Pequenos varejistas perdem faturamento por falta de produto (ruptura) e por excesso de estoque encalhado. Eles não têm ferramentas acessíveis para prever demanda.
 
 ### Dados brutos coletados
 
