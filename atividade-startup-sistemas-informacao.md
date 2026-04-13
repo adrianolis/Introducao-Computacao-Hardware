@@ -66,7 +66,7 @@
 
 ---
 
-## 3️⃣ Informação e Conhecimento (A Transformação)
+## Informação e Conhecimento (A Transformação)
 
 ### O que o sistema descobre (exemplos)
 
