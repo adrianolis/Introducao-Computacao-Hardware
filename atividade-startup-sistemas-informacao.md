@@ -108,10 +108,9 @@
 
 ---
 
-## Representação – Mapa Conceitual (versão em texto)
+## Representação – Mapa Conceitual
 
-### Fluxo completo: Coleta → Armazenamento → Processamento → Análise
-
+**Cadeia completa:** `DADOS → PROCESSAMENTO → INFORMAÇÃO → CONHECIMENTO → DECISÃO → VALOR`
 
 ### Tabela conceitual
 
@@ -121,5 +120,3 @@
 | **Processamento** | Limpeza, agregação e aplicação do modelo de previsão |
 | **Saída** | Relatório de previsão de demanda + alertas |
 | **Feedback** | Lojista informa se a previsão estava certa ou errada, melhorando o sistema |
-
-
