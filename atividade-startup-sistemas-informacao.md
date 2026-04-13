@@ -18,10 +18,10 @@
 
 ---
 
-## Problema e Dados (A Escolha do Caos)
+## Problema e Dados
 
 ### Problema real identificado
-> Pequenos varejistas perdem faturamento por falta de produto (ruptura) e por excesso de estoque encalhado. Eles não têm ferramentas acessíveis para prever demanda.
+> Pequenos varejistas perdem faturamento por falta de produto e por excesso de estoque encalhado. Eles não têm ferramentas acessíveis para prever demanda.
 
 ### Dados brutos coletados
 
@@ -34,26 +34,26 @@
 | Clima | "Chuva prevista para sábado" | API aberta |
 | Feriados locais | "Dia das Mães - 10/05" | CSV público |
 
-### Mapa conceitual – Dados (Entrada)
+### Mapa conceitual – Dados
 
 | Propriedade | Resposta |
 |-------------|----------|
 | **Entrada (input)** | Arquivos CSV + API de clima + web scraping de feriados |
-| **Origem dos dados** | PDV (ponto de venda), ERP da loja, Google Maps API, INMET |
+| **Origem dos dados** | PDV , ERP da loja, Google Maps API, INMET |
 | **Tipo (estruturado/não estruturado)** | Predominantemente estruturado (90%); logs de navegação são não estruturados (10%) |
 
 ---
 
-## Processamento (O Sistema)
+## Processamento
 
 ### Fluxo: Coleta → Armazenamento → Processamento → Análise
 
 | Etapa | O que acontece | Tecnologia (exemplo) |
 |-------|----------------|----------------------|
 | **Coleta** | Dados são capturados diariamente do sistema da loja | API, scripts automáticos |
-| **Armazenamento** | Dados brutos são guardados em um local centralizado | Banco de dados (ex: PostgreSQL) |
-| **Processamento** | Dados são limpos (remover erros, padronizar) e agrupados | Linguagem Python com bibliotecas como Pandas |
-| **Análise** | Um modelo simples identifica padrões de venda | Algoritmo de previsão (ex: regressão linear) |
+| **Armazenamento** | Dados brutos são guardados em um local centralizado | Banco de dados |
+| **Processamento** | Dados são limpos e agrupados | Linguagem Python com bibliotecas como Pandas |
+| **Análise** | Um modelo simples identifica padrões de venda | Algoritmo de previsão |
 
 ### Relação com elementos do sistema
 
@@ -66,9 +66,9 @@
 
 ---
 
-## Informação e Conhecimento (A Transformação)
+## Informação e Conhecimento
 
-### O que o sistema descobre (exemplos)
+### O que o sistema descobre
 
 | Tipo | Exemplo |
 |------|---------|
@@ -86,7 +86,7 @@
 
 ---
 
-## Decisão e Valor (A Decisão)
+## Decisão e Valor 
 
 ### Decisões que o sistema permite tomar
 
@@ -97,7 +97,7 @@
 | Alocação | Transferir produto Z de uma loja para outra onde ele vende mais |
 | Planejamento | Negociar com fornecedor antecipadamente para épocas de alta |
 
-### Valor de negócio gerado (conceitual)
+### Valor de negócio gerado
 
 | Benefício | Como acontece |
 |-----------|----------------|
@@ -111,3 +111,15 @@
 ## Representação – Mapa Conceitual (versão em texto)
 
 ### Fluxo completo: Coleta → Armazenamento → Processamento → Análise
+
+
+### Tabela conceitual
+
+| Elemento do sistema | O que representa na startup |
+|---------------------|-----------------------------|
+| **Entrada** | Dados brutos (vendas, localização, comportamento) |
+| **Processamento** | Limpeza, agregação e aplicação do modelo de previsão |
+| **Saída** | Relatório de previsão de demanda + alertas |
+| **Feedback** | Lojista informa se a previsão estava certa ou errada, melhorando o sistema |
+
+
