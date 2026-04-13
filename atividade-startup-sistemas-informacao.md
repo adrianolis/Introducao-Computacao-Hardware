@@ -40,7 +40,7 @@
 |-------------|----------|
 | **Entrada (input)** | Arquivos CSV + API de clima + web scraping de feriados |
 | **Origem dos dados** | PDV , ERP da loja, Google Maps API, INMET |
-| **Tipo (estruturado/não estruturado)** | Predominantemente estruturado (90%); logs de navegação são não estruturados (10%) |
+| **Tipo (estruturado/não estruturado)** | Predominantemente estruturado; logs de navegação são não estruturados |
 
 ---
 
