@@ -46,4 +46,68 @@
 
 ## Processamento (O Sistema)
 
+### Fluxo: Coleta → Armazenamento → Processamento → Análise
+
+| Etapa | O que acontece | Tecnologia (exemplo) |
+|-------|----------------|----------------------|
+| **Coleta** | Dados são capturados diariamente do sistema da loja | API, scripts automáticos |
+| **Armazenamento** | Dados brutos são guardados em um local centralizado | Banco de dados (ex: PostgreSQL) |
+| **Processamento** | Dados são limpos (remover erros, padronizar) e agrupados | Linguagem Python com bibliotecas como Pandas |
+| **Análise** | Um modelo simples identifica padrões de venda | Algoritmo de previsão (ex: regressão linear) |
+
+### Relação com elementos do sistema
+
+| Elemento | O que é na DataSense |
+|----------|----------------------|
+| **Sistema** | Motor de previsão de demanda |
+| **Processos** | Importar dados → Limpar → Calcular previsão → Gerar alerta |
+| **Banco de dados** | Onde ficam armazenados os históricos de venda |
+| **Fluxo da informação** | Dados entram → são processados → viram relatórios → ajudam a decidir |
+
+---
+
+## 3️⃣ Informação e Conhecimento (A Transformação)
+
+### O que o sistema descobre (exemplos)
+
+| Tipo | Exemplo |
+|------|---------|
+| **Padrões** | "Produtos da categoria A vendem mais nos finais de semana" |
+| **Tendências** | "A procura por produto B aumenta gradativamente ao longo do ano" |
+| **Previsões** | "Na próxima semana, a demanda esperada para o produto C é alta" |
+
+### Como isso ajuda o lojista
+
+| Insight | O que o lojista aprende |
+|---------|-------------------------|
+| Padrão de fim de semana | Precisa abastecer mais às sextas-feiras |
+| Tendência de crescimento | Precisa aumentar o pedido ao fornecedor gradualmente |
+| Previsão para próxima semana | Pode comprar a quantidade certa, nem faltando nem sobrando |
+
+---
+
+## Decisão e Valor (A Decisão)
+
+### Decisões que o sistema permite tomar
+
+| Decisão | Exemplo prático |
+|---------|------------------|
+| Reabastecimento | Comprar mais unidades do produto X antes do fim de semana |
+| Promoção | Reduzir preço do produto Y que está parado há muito tempo |
+| Alocação | Transferir produto Z de uma loja para outra onde ele vende mais |
+| Planejamento | Negociar com fornecedor antecipadamente para épocas de alta |
+
+### Valor de negócio gerado (conceitual)
+
+| Benefício | Como acontece |
+|-----------|----------------|
+| **Aumento de eficiência** | O lojista perde menos tempo decidindo o que comprar |
+| **Redução de custos** | Menos dinheiro preso em produtos que não vendem |
+| **Personalização** | Recomendações adaptadas para cada loja (não genéricas) |
+| **Inovação** | Pequeno varejista usa tecnologia antes acessível só para grandes redes |
+
+---
+
+## Representação – Mapa Conceitual (versão em texto)
+
 ### Fluxo completo: Coleta → Armazenamento → Processamento → Análise
