@@ -1,5 +1,5 @@
 # Aula 10 – Redes de Computadores: Histórico, Elementos e Classificação
-## Nome do aluno: Adriano Lisarb Guzmán Moura Batista
+## Nome: Adriano Lisarb Guzmán Moura Batista
 ## Objetivo
 Compreender a evolução das redes de computadores, identificar seus elementos básicos e classificar diferentes tipos de redes.
 
