@@ -1,101 +1,75 @@
 # Exercício Prático – Análise de Protocolos
 
 **Disciplina:** Introdução à Computação  
-**Repositório:** Introducao-Computacao-Hardware  
-**Aula:** 12 – Internet: História, Conceitos, Protocolos e Navegadores  
+**Aula:** 12  
 **Data:** 04/05/2026  
-**Grupo:** `_______________________`  
-**Integrantes:** `_______________________`
+**Integrante:** Adriano Lisarb Guzman Moura Batista  
+**Grupo:** Individual
 
 ---
 
-## Ferramenta Utilizada
-
-- [x] Inspetor do Navegador (F12)
-- [ ] Wireshark
-
-**Navegador/Versão:** Google Chrome  
+**Ferramenta utilizada:** Inspetor do Navegador (F12) — Google Chrome  
 **Site analisado:** https://github.com/humortadela
 
-> O **Humortadela** foi um dos sites de humor mais populares do Brasil, ativo de 1995 até 2016.
-> A URL escolhida aponta para uma organização inexistente no GitHub, gerando um **404 Not Found** real e didático.
+O Humortadela foi um dos sites de humor mais populares do Brasil, ativo de 1995 até 2016. A URL aponta para uma organização inexistente no GitHub, gerando um **404 Not Found** didático.
 
 ---
 
-## 1. Request (Requisição do Cliente)
+## Request
 
-| Campo           | Valor encontrado                        |
-|-----------------|-----------------------------------------|
-| URL             | https://github.com/humortadela          |
-| Método HTTP     | GET                                     |
-| Protocolo       | HTTP/2 (HTTPS)                          |
-| Request Headers | `accept: text/html` / `user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36` |
+| Campo | Valor |
+|---|---|
+| URL | https://github.com/humortadela |
+| Método | GET |
+| Protocolo | HTTP/2 (HTTPS) |
 
-**Captura de tela da aba Network:**
+## Response
 
-> Insira aqui o print dos Request Headers (arraste a imagem ou use o botão de anexar no GitHub)
+| Campo | Valor |
+|---|---|
+| Status Code | **404 Not Found** |
+| Content-Type | text/plain; charset=utf-8 |
+| Server | github.com |
+| Cache-Control | no-cache |
 
----
-
-## 2. Response (Resposta do Servidor)
-
-| Campo         | Valor encontrado                  |
-|---------------|-----------------------------------|
-| Status Code   | **404 Not Found**                 |
-| Content-Type  | text/plain; charset=utf-8         |
-| Server        | github.com                        |
-| Cache-Control | no-cache                          |
-
-**Captura de tela da aba Network:**
-
-> Insira aqui o print dos Response Headers
+![Análise de Protocolos – Headers](analise_protocolos.png)
 
 ---
 
-## 3. Status Code Identificado
+## Status Code
 
-- [ ] 200 OK – Sucesso.
-- [ ] 301/302 – Redirecionamento.
-- [x] **404 Not Found** – Página não encontrada no servidor.
-- [ ] 500 Internal Server Error – Erro interno no servidor.
-
-**O que esse código significa na prática?**
-
-O servidor do GitHub respondeu normalmente à requisição — o DNS funcionou, o TCP/IP estabeleceu a conexão e o HTTPS criptografou a comunicação. Porém, o recurso `/humortadela` não existe no servidor. Isso demonstra que **404 não significa "site fora do ar"**, mas sim que o servidor está ativo e acessível, porém não encontrou o recurso solicitado naquele caminho.
+**404 Not Found** — O servidor do GitHub respondeu normalmente, mas o recurso `/humortadela` não existe. Isso mostra que 404 não significa "site fora do ar", e sim que o servidor está ativo mas não encontrou o que foi solicitado.
 
 ---
 
-## 4. Protocolos Identificados na Análise
+## Protocolos Identificados
 
-### TCP/IP
-- Apareceu na análise? [x] Sim
-- O TCP/IP foi a base de toda a comunicação. Ele dividiu os dados em pacotes, cuidou do roteamento até os servidores do GitHub e garantiu que os pacotes chegassem íntegros e na ordem correta. Toda a troca de Request e Response que aparece na aba Network passou pelo TCP/IP, mesmo que de forma invisível ao usuário.
+**TCP/IP** — Base de toda a comunicação. Dividiu os dados em pacotes e garantiu que chegassem íntegros ao destino.
 
----
+**HTTPS** — O site usou HTTP/2 com criptografia TLS, confirmado pelo cadeado no navegador. Os dados trafegaram de forma segura mesmo com a resposta sendo um erro 404.
 
-### HTTP / HTTPS
-- Apareceu na análise? [x] Sim
-- O site utilizou **HTTPS** (HTTP/2 com criptografia TLS). Isso é confirmado pelo cadeado na barra do navegador e pelo protocolo `HTTP/2` nos headers. O "S" garante que os dados trafegaram criptografados entre o navegador e o servidor do GitHub, protegendo a comunicação mesmo que a resposta tenha sido um erro 404.
+**DNS** — Antes da requisição, o navegador traduziu `github.com` para um endereço IP automaticamente. Sem isso, a requisição não chegaria ao servidor.
+
+**FTP** — Não apareceu nessa análise. Seria utilizado para transferência direta de arquivos entre cliente e servidor, não para navegação web.
 
 ---
 
-### DNS
-- Antes de qualquer requisição aparecer na aba Network, o navegador precisou traduzir o domínio `github.com` para um endereço IP numérico. Esse processo é feito automaticamente pelo DNS, funcionando como uma "agenda de contatos" da internet. Sem o DNS, o navegador não saberia para qual servidor enviar a requisição.
+## Conclusão
+
+O acesso a `https://github.com/humortadela` percorreu o ciclo completo: DNS traduziu o domínio, TCP/IP estabeleceu a conexão, HTTPS criptografou a comunicação e o servidor retornou 404 Not Found. O protocolo mais essencial foi o **TCP/IP**, pois é a base que sustenta todos os outros.
 
 ---
 
-### FTP
-- Esse protocolo apareceu? [ ] Sim [x] Não
-- O FTP não foi utilizado nessa comunicação. Ele seria usado em um contexto diferente, como por exemplo para um desenvolvedor transferir arquivos diretamente para um servidor de hospedagem de sites. No caso de páginas web acessadas pelo navegador, o protocolo utilizado é o HTTP/HTTPS.
+## Referências
 
----
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE (UFRN). Instituto Metrópole Digital. Disponível em: https://materialpublic.imd.ufrn.br/curso/disciplina/4/21/5. Acesso em: 4 maio 2026.
 
-## 5. Conclusão do Grupo
+KUROSE, J. F.; ROSS, K. W. **Redes de computadores e a internet**. 5. ed. São Paulo: Addison Wesley, 2010.
 
-Ao acessar `https://github.com/humortadela`, o navegador seguiu o ciclo completo de comunicação da internet: o **DNS** traduziu o domínio para um IP, o **TCP/IP** estabeleceu a conexão e dividiu os dados em pacotes, e o **HTTPS** criptografou toda a troca de informações. O servidor do GitHub recebeu a requisição GET, processou normalmente, mas retornou **404 Not Found** pois a organização `/humortadela` não existe.
+TANENBAUM, Andrew S. **Redes de computadores**. 4. ed. Rio de Janeiro: Elsevier, 2003.
 
-O protocolo que consideramos mais essencial nessa comunicação foi o **TCP/IP**, pois ele é a base invisível que sustenta todos os outros — sem ele, nenhuma requisição chegaria ao destino, independentemente do protocolo de aplicação utilizado.
+SOARES, L. F. G. **Redes de computadores das LANs, MANs e WANs às redes ATM**. 2. ed. São Paulo: Campus, 1995.
 
----
+FOROUZAN, B. **Comunicação de Dados e Redes de Computadores**. 3. ed. Porto Alegre: Bookman, 2006.
 
-*Arquivo gerado para o repositório `Introducao-Computacao-Hardware` — Aula12_Internet/*
+40 maps that explain the internet. Vox. Disponível em: https://www.vox.com/a/internet-maps.
