@@ -13,3 +13,4 @@
 - `navegadores.md` — Função dos navegadores e motores de renderização
 - `analise_protocolos.md` — Exercício prático de análise de protocolos
 - `analise_protocolos.png` — Print do Inspetor do Navegador (F12)
+- `reflexao_individual.md` — Reflexão sobre o protocolo mais essencial da Internet
