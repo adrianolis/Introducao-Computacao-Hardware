@@ -60,3 +60,5 @@ UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE (UFRN). Instituto Metrópole Digital
 KUROSE, J. F.; ROSS, K. W. **Redes de computadores e a internet**. 5. ed. São Paulo: Addison Wesley, 2010.
 
 TANENBAUM, Andrew S. **Redes de computadores**. 4. ed. Rio de Janeiro: Elsevier, 2003.
+
+CGI.BR. Linha do Tempo da Internet no Brasil. Disponível em: https://ceweb.br/linhadotempo/. Acesso em: 6 maio 2026.
