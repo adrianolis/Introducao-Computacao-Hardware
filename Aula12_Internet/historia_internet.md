@@ -1,4 +1,4 @@
-# Conceitos Fundamentais
+# História da Internet
 
 **Disciplina:** Introdução à Computação  
 **Aula:** 12  
@@ -8,56 +8,48 @@
 
 ---
 
-## 1. Internet vs. Web
+## 1. ARPANET (anos 60/70)
 
-A **Internet** e a **Web** são conceitos diferentes, mas frequentemente confundidos.
+A Internet nasceu como um projeto militar e acadêmico do Departamento de Defesa dos Estados Unidos chamado **ARPANET** (Advanced Research Projects Agency Network). O objetivo era criar uma rede descentralizada capaz de manter a comunicação mesmo que parte dela fosse destruída — por exemplo, em um ataque nuclear.
 
-A **Internet** é a infraestrutura física global — cabos de fibra óptica, roteadores, switches e enlaces de satélite que conectam bilhões de dispositivos ao redor do mundo. É a "rodovia".
-
-A **Web** (World Wide Web) é um serviço que funciona sobre a Internet — um sistema de páginas e documentos interligados por hiperlinks, acessados via navegador usando o protocolo HTTP/HTTPS. É o "carro que trafega na rodovia".
-
-| | Internet | Web |
-|---|---|---|
-| O que é | Infraestrutura física | Serviço/aplicação |
-| Componentes | Cabos, roteadores, IPs | Páginas HTML, links, navegadores |
-| Protocolo principal | TCP/IP | HTTP/HTTPS |
-| Exemplo | Wi-Fi, cabo, fibra óptica | Sites, blogs, portais |
-
-> Outros serviços também usam a Internet sem ser a Web: e-mail, WhatsApp, streaming, jogos online.
+Em 1969, os primeiros nós da rede foram conectados entre universidades americanas como UCLA e Stanford. Era a primeira vez que computadores em locais diferentes conseguiam se comunicar diretamente.
 
 ---
 
-## 2. Arquitetura Cliente-Servidor
+## 2. Expansão Acadêmica e Militar (anos 70/80)
 
-A arquitetura **cliente-servidor** é o modelo base de comunicação da Internet. Nele, dois papéis se complementam:
+Ao longo dos anos 70 e 80, a rede foi crescendo dentro do ambiente acadêmico e militar. Universidades e centros de pesquisa passaram a se conectar para compartilhar dados e resultados científicos.
 
-**Cliente** — é quem solicita a informação. Exemplo: seu navegador ao digitar um endereço.
-
-**Servidor** — é quem armazena e entrega a informação solicitada. Exemplo: o computador do Google que guarda as páginas de busca.
-
-O fluxo funciona assim:
-
-1. O cliente envia uma **requisição (Request)** ao servidor
-2. O servidor processa e devolve uma **resposta (Response)**
-3. O cliente exibe o resultado ao usuário
-
-Esse modelo é usado em praticamente todos os serviços da Internet: sites, e-mails, aplicativos e streaming.
+Foi nesse período que surgiu o protocolo **TCP/IP** (1983), que se tornou o padrão de comunicação da rede e é utilizado até hoje.
 
 ---
 
-## 3. Endereço IP
+## 3. Comercialização (anos 90)
 
-O **IP (Internet Protocol)** é o endereço único que identifica cada dispositivo conectado à Internet — funciona como o "CEP digital" de cada máquina.
+No início dos anos 90, a infraestrutura da internet deixou os laboratórios e passou a ser acessível para empresas e provedores de acesso privados. Esse foi o marco da **comercialização da internet**, quando qualquer pessoa com um computador e uma linha telefônica podia se conectar.
 
-Para que os dados encontrem o caminho de ida e volta entre cliente e servidor, cada dispositivo precisa de um endereço IP. Existem dois formatos:
+No Brasil, o acesso comercial à internet começou em **1995**, com os primeiros provedores de acesso.
 
-**IPv4** — formato mais antigo, composto por 4 números separados por ponto.  
-Exemplo: `192.168.0.1`
+---
 
-**IPv6** — formato mais novo, criado para suportar o crescimento da Internet.  
-Exemplo: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+## 4. A Criação da WWW
 
-O endereço IP garante que o pacote de dados enviado pelo cliente chegue exatamente ao servidor correto, e que a resposta volte para o dispositivo certo.
+Em **1989**, o cientista britânico **Tim Berners-Lee**, trabalhando no CERN (laboratório de física na Suíça), propôs um sistema de documentos interligados por hiperlinks. Em 1991 esse sistema foi publicado e ficou conhecido como **World Wide Web (WWW)**.
+
+A WWW transformou a internet em um espaço público e navegável, criando o conceito de páginas web, links e navegadores. Foi ela que popularizou o uso da internet no mundo todo.
+
+---
+
+## Linha do Tempo
+
+| Ano | Marco |
+|---|---|
+| 1969 | Primeiro nó da ARPANET conectado |
+| 1983 | Adoção do protocolo TCP/IP |
+| 1989 | Tim Berners-Lee propõe a WWW |
+| 1991 | WWW é publicada ao mundo |
+| 1993 | Primeiro navegador gráfico (Mosaic) |
+| 1995 | Internet comercial chega ao Brasil |
 
 ---
 
@@ -68,5 +60,3 @@ UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE (UFRN). Instituto Metrópole Digital
 KUROSE, J. F.; ROSS, K. W. **Redes de computadores e a internet**. 5. ed. São Paulo: Addison Wesley, 2010.
 
 TANENBAUM, Andrew S. **Redes de computadores**. 4. ed. Rio de Janeiro: Elsevier, 2003.
-
-FOROUZAN, B. **Comunicação de Dados e Redes de Computadores**. 3. ed. Porto Alegre: Bookman, 2006.
