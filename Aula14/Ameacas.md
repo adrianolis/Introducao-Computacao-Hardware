@@ -2,35 +2,35 @@
 
 ## 1. Principais Ameaças Digitais
 
-### 🦠 Malware
+### Malware
 Códigos maliciosos — como vírus, ransomware, spyware e trojans — projetados para roubar, criptografar ou destruir dados. Frequentemente distribuídos via anexos de e-mail, downloads suspeitos ou dispositivos USB infectados.
 
 **Impacto potencial:** perda ou sequestro de dados, interrupção de sistemas, prejuízos financeiros e danos à reputação da organização.
 
 ---
 
-### 🎣 Phishing
+### Phishing
 Técnica de fraude eletrônica que utiliza mensagens falsas (e-mail, SMS, WhatsApp) para enganar usuários e roubar credenciais de acesso, dados bancários ou informações pessoais. O atacante se passa por uma entidade confiável (banco, empresa, governo).
 
 **Impacto potencial:** acesso não autorizado a sistemas, roubo de identidade e fraudes financeiras.
 
 ---
 
-### 🎭 Engenharia Social
+### Engenharia Social
 Manipulação psicológica de pessoas para que executem ações ou divulguem informações confidenciais. Baseia-se na exploração da confiança, do medo ou do senso de urgência — sem depender de exploração técnica direta.
 
 **Impacto potencial:** vazamento de senhas e dados sigilosos, comprometimento de sistemas inteiros a partir de um único usuário enganado.
 
 ---
 
-### 💥 Ataques de Negação de Serviço (DDoS)
+### Ataques de Negação de Serviço (DDoS)
 Sobrecarga intencional de servidores com tráfego falso, tornando sistemas e serviços indisponíveis para usuários legítimos.
 
 **Impacto potencial:** interrupção de serviços críticos, prejuízo financeiro e dano à reputação.
 
 ---
 
-### 🔓 Exploração de Vulnerabilidades (Exploits)
+### Exploração de Vulnerabilidades (Exploits)
 Uso de falhas conhecidas em softwares, sistemas operacionais ou configurações para obter acesso não autorizado a sistemas.
 
 **Impacto potencial:** acesso a dados sensíveis, instalação de malware e controle remoto de sistemas.
@@ -56,7 +56,7 @@ São as mais difíceis de mitigar por envolverem comportamento humano:
 - **Excesso de confiança:** clicar em links sem verificar o remetente ou o domínio real.
 - **Erro humano:** configurações incorretas, exclusão acidental de dados ou envio de informações para o destinatário errado.
 
-> 📊 **Dado relevante:** Segundo o Fórum Econômico Mundial (WEF, 2020), **95% das violações de segurança cibernética são causadas por erro humano**, tornando o fator humano o elo mais frágil de qualquer sistema de segurança.
+> **Dado relevante:** Segundo o Fórum Econômico Mundial (WEF, 2020), **95% das violações de segurança cibernética são causadas por erro humano**, tornando o fator humano o elo mais frágil de qualquer sistema de segurança.
 
 ---
 
@@ -74,6 +74,4 @@ São as mais difíceis de mitigar por envolverem comportamento humano:
 
 ## Referências
 
-- CNJ; PNUD. **Cartilha de Segurança da Informação**. Brasília, 2023.
-- WORLD ECONOMIC FORUM. *After reading, writing and arithmetic, the 4th 'r' of literacy is cyber-risk*, 2020.
-- ABNT. **NBR ISO/IEC 27000:2018**.
+- https://www.iso.org/standard/73906.html
