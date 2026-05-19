@@ -88,6 +88,4 @@ O ataque à Target é um exemplo clássico de como uma cadeia de comprometimento
 ## Referências
 
 - [ISO.org (27000:2018)](https://www.iso.org/standard/73906.html)
-- RILEY, M. et al. *Missed Alarms and 40 Million Stolen Credit Card Numbers: How Target Blew It*. Bloomberg Businessweek, 2014.
-- U.S. Senate Committee on Commerce. *A 'Kill Chain' Analysis of the 2013 Target Data Breach*, 2014.
-- Payment Card Industry Security Standards Council. **PCI-DSS v4.0**, 2022.
+- [U.S. SENATE COMMITTEE ON COMMERCE. A 'Kill Chain' Analysis of the 2013 Target Data Breach. Washington, 2014.](https://www.commerce.senate.gov/wp-content/uploads/media/doc/2014%200325%20Target%20Kill%20Chain%20Analysis.pdf)
