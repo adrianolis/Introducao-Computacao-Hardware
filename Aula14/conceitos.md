@@ -53,6 +53,6 @@ A relação entre os elementos centrais da segurança pode ser resumida da segui
 
 ## Referências
 
-- ABNT. **NBR ISO/IEC 27000:2018** — Tecnologia da informação — Técnicas de segurança — Sistemas de gestão da segurança da informação.
-- ABNT. **NBR ISO/IEC 29100:2020** — Tecnologia da informação — Técnicas de segurança — Estrutura de privacidade.
-- Lei nº 13.709/2018 — **Lei Geral de Proteção de Dados Pessoais (LGPD)**.
+- [ABNT. NBR ISO/IEC 27000:2018 — Tecnologia da informação — Técnicas de segurança — Sistemas de gestão da segurança da informação](https://www.iso.org/standard/73906.html)
+- [ABNT. NBR ISO/IEC 29100:2020 — Tecnologia da informação — Técnicas de segurança — Estrutura de privacidade](https://www.iso.org/standard/45123.html)
+- [Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
