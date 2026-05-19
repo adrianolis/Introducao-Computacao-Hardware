@@ -74,4 +74,4 @@ São as mais difíceis de mitigar por envolverem comportamento humano:
 
 ## Referências
 
-- https://www.iso.org/standard/73906.html
+- [ISO.org (27000:2018)](https://www.iso.org/standard/73906.html)
