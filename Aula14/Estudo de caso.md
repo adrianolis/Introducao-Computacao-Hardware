@@ -6,7 +6,7 @@
 
 ## 1. Contexto do Ataque
 
-Em novembro de 2013, durante a temporada de compras do Dia de Ação de Graças nos Estados Unidos, a rede varejista **Target Corporation** — segunda maior do país na época — sofreu um dos maiores ataques cibernéticos já registrados contra o setor de varejo.
+Em novembro de 2013, durante a temporada de compras do Dia de Ação de Graças nos Estados Unidos, a rede varejista **Target Corporation** - segunda maior do país na época - sofreu um dos maiores ataques cibernéticos já registrados contra o setor de varejo.
 
 Entre os dias **27 de novembro e 15 de dezembro de 2013**, atacantes instalaram um malware nos sistemas de **Ponto de Venda (PDV)** da rede, capturando em tempo real os dados de cartões de crédito e débito de clientes no momento das compras físicas nas lojas.
 
@@ -18,18 +18,18 @@ O resultado foi o comprometimento de dados de aproximadamente **40 milhões de c
 
 O ataque combinou vulnerabilidades **técnicas e humanas** em uma cadeia de comprometimento sofisticada:
 
-### Vetor de Entrada — Terceiro Vulnerável (Vulnerabilidade Humana + Técnica)
+### Vetor de Entrada - Terceiro Vulnerável (Vulnerabilidade Humana + Técnica)
 Os atacantes não invadiram a Target diretamente. O ponto de entrada foi a **Fazio Mechanical Services**, uma empresa terceirizada de refrigeração e climatização com acesso remoto à rede da Target para monitoramento de sistemas de HVAC (aquecimento, ventilação e ar-condicionado).
 
 Um funcionário da Fazio clicou em um **e-mail de phishing** contendo o malware **Citadel** (uma variante do Trojan bancário Zeus). Com as credenciais de acesso obtidas, os atacantes entraram na rede da Target.
 
-### Movimento Lateral — Segmentação de Rede Inexistente (Vulnerabilidade Técnica)
+### Movimento Lateral - Segmentação de Rede Inexistente (Vulnerabilidade Técnica)
 A rede interna da Target **não era adequadamente segmentada**. Uma vez dentro da rede do fornecedor, os atacantes conseguiram se mover lateralmente até os sistemas de pagamento — algo que não deveria ser possível se houvesse isolamento adequado entre a rede de fornecedores e os sistemas críticos de PDV.
 
-### Instalação do Malware — BlackPOS
+### Instalação do Malware - BlackPOS
 Os atacantes instalaram o malware **BlackPOS** (também chamado de "Kaptoxa") nos terminais de ponto de venda. Esse malware atuava como um **RAM scraper**: capturava os dados dos cartões diretamente da memória RAM dos terminais no momento em que os dados transitavam descriptografados durante o processamento da transação, antes de serem criptografados para transmissão.
 
-### Exfiltração — FTP Interno
+### Exfiltração - FTP Interno
 Os dados coletados eram enviados para servidores intermediários **dentro da própria rede da Target** e depois exfiltrados para servidores externos em países como Rússia e Leste Europeu via FTP, sem que os sistemas de monitoramento bloqueassem o tráfego suspeito.
 
 > ⚠️ **Agravante:** O sistema de detecção de intrusão da Target (FireEye) identificou o malware e gerou alertas — que foram **ignorados** pela equipe de segurança, ilustrando a vulnerabilidade humana mesmo quando a tecnologia funciona corretamente.
@@ -38,13 +38,13 @@ Os dados coletados eram enviados para servidores intermediários **dentro da pr�
 
 ## 3. Impactos — Atributos Violados
 
-### 🔒 Confidencialidade — VIOLADA
+### 🔒 Confidencialidade - VIOLADA
 Este foi o atributo mais diretamente comprometido. Dados de **40 milhões de cartões** (número, data de validade, código CVV e dados da tarja magnética) e informações pessoais de **70 milhões de clientes** foram expostos a terceiros não autorizados e comercializados em mercados ilegais na dark web.
 
-### ✅ Integridade — PARCIALMENTE COMPROMETIDA
-Os dados dos cartões foram capturados sem modificação dos registros originais, porém a **integridade do ambiente de segurança** foi comprometida — malwares foram instalados em sistemas críticos sem autorização, alterando o comportamento legítimo dos terminais de PDV.
+### ✅ Integridade - PARCIALMENTE COMPROMETIDA
+Os dados dos cartões foram capturados sem modificação dos registros originais, porém a **integridade do ambiente de segurança** foi comprometida - malwares foram instalados em sistemas críticos sem autorização, alterando o comportamento legítimo dos terminais de PDV.
 
-### 🔄 Disponibilidade — INDIRETAMENTE AFETADA
+### 🔄 Disponibilidade - INDIRETAMENTE AFETADA
 Os serviços não ficaram completamente indisponíveis, mas o ataque gerou uma crise operacional significativa: a Target precisou desativar sistemas, investigar a extensão do comprometimento e reemitir milhões de cartões, impactando clientes e parceiros financeiros.
 
 ### 💰 Impactos Financeiros e Reputacionais
