@@ -81,7 +81,7 @@ Os serviços não ficaram completamente indisponíveis, mas o ataque gerou uma c
 
 ## Conclusão
 
-O ataque à Target é um exemplo clássico de como uma cadeia de comprometimento começa por um elo fraco — neste caso, um fornecedor terceiro vulnerável a phishing — e se propaga pela ausência de controles técnicos básicos, como a segmentação de rede. O episódio reforça que a segurança da informação deve ser tratada de forma sistêmica: tecnologia, processos e, fundamentalmente, **o fator humano** precisam ser gerenciados em conjunto.
+O ataque à Target é um exemplo clássico de como uma cadeia de comprometimento começa por um elo fraco - neste caso, um fornecedor terceiro vulnerável a phishing — e se propaga pela ausência de controles técnicos básicos, como a segmentação de rede. O episódio reforça que a segurança da informação deve ser tratada de forma sistêmica: tecnologia, processos e, fundamentalmente, **o fator humano** precisam ser gerenciados em conjunto.
 
 ---
 
