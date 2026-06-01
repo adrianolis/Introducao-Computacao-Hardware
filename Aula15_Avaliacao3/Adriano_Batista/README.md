@@ -2,7 +2,7 @@
 ## Segurança da Informação: Phishing
 
 ### Integrante
-- Adriano Batista
+- Adriano Lisarb Guzman Moura Batista
 
 ### Ameaça Escolhida
 **Phishing** - golpe digital em que criminosos se passam por instituições
