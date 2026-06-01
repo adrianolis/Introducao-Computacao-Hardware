@@ -1,6 +1,6 @@
 # Reflexão Individual – Avaliação 3
 
-**Aluno:** Adriano Batista  
+**Aluno:** Adriano Lisarb Guzman Moura Batista  
 **Disciplina:** Introdução à Computação  
 
 ## Como as novas tecnologias podem fortalecer os mecanismos de proteção em segurança da informação?
