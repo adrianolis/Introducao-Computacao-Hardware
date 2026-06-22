@@ -1,0 +1,84 @@
+# Investigação de Hardware – Altair 8800
+
+**Atividade:** Investigação: Arqueologia Digital e a Evolução dos Componentes  
+**Data:** 09/03/2026  
+**Disciplina:** Introdução à Computação
+
+---
+
+## Descrição do Artefato
+
+O Altair 8800 foi um dos primeiros microcomputadores pessoais da história, lançado em 1975 pela empresa MITS (Micro Instrumentation and Telemetry Systems). Esse computador ficou muito conhecido por ter iniciado a popularização dos computadores pessoais, sendo considerado um marco importante na história da computação.
+
+No início, o Altair 8800 era vendido como um kit que os próprios usuários precisavam montar. Ele não possuía monitor, teclado ou interface gráfica como os computadores atuais. Para programar o computador, os usuários utilizavam um painel frontal com interruptores e luzes LED. As instruções eram inseridas manualmente através dessas chaves.
+
+O Altair também ganhou destaque porque foi a máquina para a qual Bill Gates e Paul Allen desenvolveram uma versão da linguagem BASIC, o que ajudou no surgimento da empresa Microsoft.
+
+---
+
+## Processamento
+
+O processamento do Altair 8800 era realizado pelo microprocessador **Intel 8080**. Esse processador possuía uma Unidade Lógica e Aritmética (ULA), responsável por realizar operações matemáticas e lógicas, como soma, subtração e comparações entre valores.
+
+A Unidade de Controle era responsável por coordenar a execução das instruções do programa, controlando o fluxo de dados dentro do processador e determinando quais operações deveriam ser executadas em cada momento.
+
+Comparado com os computadores atuais, esse processamento era extremamente limitado. Hoje, processadores modernos possuem bilhões de transistores e conseguem realizar bilhões de operações por segundo.
+
+---
+
+## Armazenamento e Memória
+
+O Altair 8800 possuía uma quantidade muito pequena de memória. A configuração inicial do computador tinha apenas cerca de **256 bytes de memória RAM**, o que significa que ele podia armazenar uma quantidade muito pequena de dados e instruções.
+
+Atualmente, computadores e smartphones possuem memória RAM de vários gigabytes — uma diferença enorme na capacidade de armazenamento e processamento de informações.
+
+Além disso, os computadores modernos também possuem outros tipos de memória, como memória cache e armazenamento em SSD, que são muito mais rápidos e eficientes do que as tecnologias utilizadas naquela época.
+
+---
+
+## Interface e Periféricos
+
+O Altair 8800 tinha uma interface bastante simples. A entrada de dados era feita através de interruptores localizados no painel frontal do computador. Já a saída de dados era exibida através de luzes LED que indicavam os valores processados pelo sistema.
+
+Com o tempo, outros periféricos começaram a ser adicionados ao Altair, como teclados, monitores e unidades de armazenamento externo.
+
+Nos computadores modernos, os periféricos são muito mais avançados e incluem dispositivos como teclado, mouse, monitor, telas sensíveis ao toque, impressoras, dispositivos de armazenamento externo e conexões com a internet.
+
+---
+
+## Comparação com Hardware Moderno
+
+Comparando o Altair 8800 com os computadores atuais, é possível perceber uma grande evolução tecnológica:
+
+| Característica | Altair 8800 (1975) | Computadores Modernos |
+|---|---|---|
+| Processador | Intel 8080 | Processadores multi-core (bilhões de transistores) |
+| Memória RAM | 256 bytes | Vários gigabytes (GB) |
+| Interface | Interruptores e LEDs | Interface gráfica avançada (GUI) |
+| Periféricos | Painel frontal | Teclado, mouse, monitor, touchscreen, etc. |
+| Conectividade | Nenhuma | Redes, Wi-Fi, Bluetooth, Internet |
+
+Além disso, os dispositivos atuais também possuem conectividade com redes e internet, algo que não existia na época em que o Altair foi criado.
+
+---
+
+## Conclusão
+
+O Altair 8800 foi um computador extremamente importante para a história da computação, pois ajudou a iniciar a revolução dos computadores pessoais. Mesmo sendo muito limitado quando comparado com os computadores atuais, ele abriu caminho para o desenvolvimento de máquinas cada vez mais poderosas e acessíveis.
+
+A evolução dos componentes internos dos computadores — como a ULA, a Unidade de Controle, a memória e os periféricos — demonstra como a tecnologia avançou rapidamente nas últimas décadas.
+
+---
+
+## Imagens
+
+![Altair 8800 - Vista frontal](https://upload.wikimedia.org/wikipedia/commons/c/cb/MITS_Altair_8800_Computer_%281975%29.jpg)
+
+![Altair 8800 - Vista alternativa](https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg)
+
+---
+
+## Referências
+
+- Acervo Online: [Computer History Museum](https://computerhistory.org)
+- Documentário: [Triumph of the Nerds (1996)](https://www.youtube.com/watch?v=XlCaiD5VQRU)
